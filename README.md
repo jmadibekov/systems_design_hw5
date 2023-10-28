@@ -30,3 +30,11 @@
     $ docker compose exec -t db pg_dump -U postgres -d postgres > spacedb_dump.sql
     ```
 5. Open `home.html` on the browser.
+
+## Architecture
+
+See below and follow this [link](https://excalidraw.com/#json=kTmpzza_xLHNtXezSi-fc,elnVf2va8x8glXMmZJvyMA):
+
+![Diagram](./architecture_diagram.png)
+
+Architecture doc can be found in `Architecture Document.pdf`.
